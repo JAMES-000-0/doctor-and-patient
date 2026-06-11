@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="sam.css">
+        <title>Sign in</title>
+    </head>
+    <body class="whole">
+        <div class="row">
+            <div class="col-7 a">
+                <h1 class="first">Welcome to</h1>
+                <img class="one" src="./images/Group 3597.png"><br>
+                <img class="two" src="./images/Group 3599.png" ><br>
+                <label class="three">Manage your patients</label>
+            </div>
+            <div class="col-5 b">
+                <div class="hhh"><lable class="third">Sign in</lable><br>
+                <lable class="fourth">We have Happy to be in our OneRec Portal.<br>Sign in and explore OneRec</lable><br>
+                <label class="fifth">Email Address</label><br>
+                <lable class="sixth">Password</lable>
+                <div class="container">
+                    <input type="email" class="em" id="emaili">
+                   <input type="password" class="em" id="passi">
+                </div>
+                <lable class="me">Rememder me <a href="">Forget password?</a></lable>
+                <div class="check">
+                     <input type="checkbox" class="seventh">
+                </div>
+                <div class="but">
+                    <button onclick=next() class="b1">Sign in</button>           
+                   <a href="signup.html"><button class="b2">Sign up</button></a> 
+                </div></div>
+              
+                 
+            </div>
+        </div>
+        <script>
+            function next(){
+                let email=document.getElementById("emaili").value 
+                let pass=document.getElementById("passi").value
+                let uemail=localStorage.getItem("emailid")
+                let upass=localStorage.getItem("pass")
+                if(email=="" || pass==""){
+                    alert("please fill all the the details")
+                }
+                else{
+                    if(email==uemail &&  pass ==upass)
+                {
+                    alert("login Successfull")
+                    window.location.href="dashboard.html"
+                }
+                else{
+                    alert("please fill the correct details")
+                }
+                }
+
+            }
+        </script>
+    </body>
+</html>
