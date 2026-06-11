@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+    
+</head>
+
+
+<style>
+.whole{
+        background-color:rgb(238, 237, 237);
+    }
+    .first{
+        background-color: white;
+        width: 300px;
+        height: 69px;
+    }
+    .imgone{
+        margin-top: 19px;
+        margin-left: 80px;
+        height: 19px;
+        width:90px;
+    }
+    .sec{
+        background-color: white;
+        margin-top: 1px;
+        width:300px;
+        height: 641px;
+    }
+    .imgtwo{
+        margin-left: 60px;
+        margin-top: 20px;
+        height: 20px;
+    }
+    .imgthree{
+        margin-top: 20px;
+        margin-left: 60px;
+         height: 25px;
+       
+    }
+    .three{
+        background-color: rgba(66, 132, 243, 1);
+        margin-top: 20px;
+         padding-bottom: 20px;
+    }
+   .fourth{
+     margin-left: 60px;
+      margin-top: 20px;
+   }
+   .four{
+    margin-left: 20px;
+   }
+   .fourth img{
+     height: 20px;
+   }
+   .five{
+     margin-left: 60px;
+      margin-top: 35px;
+       height: 20px;
+   }
+   .six{
+     margin-left: 60px;
+      margin-top: 35px;
+       height: 20px;
+   }
+   .b input{
+    border: none;
+   }
+ .rone{
+    background-color: white;
+    height:69px;
+    margin-left: 40px;
+    width: 1240px;
+    display: flex;
+   }
+   .search{
+    margin-top: 24px;
+    height: 19px;
+    margin-left: 21px;
+   }
+  .rone input{
+    width: 700px;
+    border: none;
+    margin-bottom: 5px;
+   }
+   .rone input:focus{
+    border: none;
+   }
+   .pay{
+    color: white;
+    margin-top: 4px;
+    margin-left: 25px;
+   }
+   .new{
+    background-color:  rgba(66, 132, 243, 1);
+    width: 139px;
+    height: 38px;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: 160px;
+   }
+   .pro{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 13px;
+   }
+   .nam{
+    font-weight: bold;
+    letter-spacing: 2%;
+    margin-top: 16px;
+   }
+   .arro{
+      font-weight: bold;
+    letter-spacing: 2%;
+    transform: rotate(180deg);
+    margin-bottom: 30px;
+    margin-left: 10px;
+   }
+   .larr{
+    font-size: 20px;
+    margin-top: 10px;
+   }
+   .ba{
+    display: flex;
+    margin-left: 50px;
+   }
+   .pre{
+    font-size:10px;
+    margin-right: 4px;
+   }
+   .prev1{
+      border: 2px solid rgba(66, 132, 243, 1);
+    border-radius: 4px;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  margin-top: 3px;
+  color: rgba(66, 132, 243, 1);
+  margin-left: 930px;
+   }
+   .prev2{
+      border: 2px solid rgba(66, 132, 243, 1);
+    border-radius: 4px;
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  margin-top: 3px;
+  color: rgba(66, 132, 243, 1);
+  margin-left: 10px;
+   }
+   .ppro{
+    background-color: white;
+    height: 300px;
+    margin-left: 50px;
+    width:900px;
+    border-radius: 5px;
+    /* display: flex;  */
+   }
+   .firstpart{
+    display: flex;
+   }
+   .john{
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+   }
+   .active{
+    background-color: rgba(39, 172, 27, 1);
+    border-radius: 13px;
+    width: 69px;
+    text-align: center;
+    height:19px;
+    font-size: 12px;
+    color: white;
+    margin-top: 13px;
+    margin-left: 10px;
+   }
+   .update{
+    color: rgba(159, 159, 159, 1);
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: small;
+    width:200px
+   }
+   .appoint{
+    background-color: rgba(66, 132, 243, 1);
+    border:none;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+     margin-top: 10px;
+    margin-left: 100px;
+   }
+   .dropdown{
+    position: relative;
+    color: rgba(0, 71, 154, 1);
+   }
+.dropdown img{
+    border: none;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+} 
+.ppro h5{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   padding: 12px 16px; 
+   width:270px; 
+   
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-right: 50px;
+}
+.dropdown-content img {margin-bottom: 10px;
+    margin-right: 5px;
+}
+.firstline{
+    display: flex;
+    height: 50px;
+     /* margin-left: 120px; */
+}
+.secline{
+    display: flex;
+    height: 20px;
+    /* margin-left: 120px; */
+}
+.dot{
+   height: 9px;
+   width:9px;
+   margin-top: 5px;
+   margin-left: 5px;
+}
+.hi{
+    font-size: small;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+.occup{
+    font-size: small;
+    margin-top: px;
+    margin-left: 10px;
+}
+.third{
+    color: rgba(159, 159, 159, 1);
+    font-size: small;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+.month{
+   color: black;
+   font-size: small;
+}
+.mdate{
+    font-size: small;
+    margin-bottom: 40px;
+}
+.problem{
+    margin-left: 20px;
+}
+.edit{
+    /* color: rgba(66, 132, 243, 1); */
+    margin-left: 400px;
+}
+.image img{
+    height:150px;
+    width: 130px;
+}
+.image{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 130px;
+}
+.firstline h5{
+    width: 120px;
+}
+.appt{
+     color: rgba(159, 159, 159, 1);
+    font-size: small;
+}
+.weight{
+   
+   margin-left: 10px;
+}
+.wei{
+    margin-left: 50px;
+}
+.heart{
+    display: flex;
+}
+.ba a{
+    width: 200px;
+}
+.pproone{
+    display: flex;
+    margin-top: 5px;
+}
+.typeone{
+    background-color: rgba(66, 132, 243, 1);
+    color: white;
+    margin-left: 5px;
+    height: 300px;
+    width: 320px;
+    border-radius: 5px;
+     resize: none;
+     padding-top:30px;
+     position: relative;
+     z-index: 0;
+}
+.typeone ::placeholder{
+    color: white;
+    opacity: 1;
+}
+::-webkit-input-placeholder {
+  color: white;
+}
+textarea:focus {
+  outline: none;
+}
+.notes{
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    color: white;
+}
+.thirdpart{
+    display: flex;
+}
+.risk{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.risk hr{
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.lab hr{
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.riskone{
+    display: flex;
+}
+.factor{
+    width:100px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.zoom{
+    height: 18px;
+    width:18px;
+    margin-top: 6px;
+    margin-left: 160px;
+}
+.norisk{
+    font-size: small;
+    color: rgba(159, 159, 159, 1);
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.addrisk button{
+    font-size: small;
+    color: rgba(66, 132, 243, 1);
+    border-color: rgba(66, 132, 243, 1);
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 80px;
+    border-radius: 2px;
+}
+.lab{
+     background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.labresult{
+    display: flex;
+}
+.rates{
+    font-size: smaller;
+    margin-left: 5px;
+}
+.heartrate{
+    display: flex;
+}
+.numb{
+    text-align: right;
+    margin-left: 90px;
+}
+.numb1{
+    text-align: right;
+    margin-left: 115px;
+}
+.numb2{
+    text-align: right;
+    margin-left: 155px;
+}
+.casuses{
+    font-size: smaller;
+}
+.suggested{
+     background-color: white;
+    height: 200px;
+    width: 285px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.suggested hr{
+     padding: 0px 0px 0px 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.reports{
+    display: flex;
+}
+.zoom1{
+    margin-left: 150px;
+}
+.zoom3{
+    margin-left: 110px;
+}
+.zoom4{
+    margin-left:90px;
+}
+.repo {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.ray{
+    font-size: smaller;
+    margin-left: 5px;
+}
+.parts
+{
+    font-size: smaller;
+    color: rgba(159, 159, 159, 1);
+}
+.priority{
+    font-size: smaller;
+    margin-left: 170px;
+    color: rgba(66, 132, 243, 1);
+}   
+.priority1{
+    font-size: smaller;
+    margin-left: 130px;
+    color: rgba(66, 132, 243, 1);
+}
+.upcoming{
+     background-color: white;
+    height: 200px;
+    width: 310px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.upcoming hr{
+     padding: 0px 0px 0px 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.da{
+    color: rgba(66, 132, 243, 1);
+    margin-left: 5px;
+    margin-top: 10px    ;
+}
+.heartsur{
+    font-size: smaller;  
+}
+.dates{
+    display: flex; 
+}
+.doc{
+    font-size: smaller;
+    color: rgba(128, 128, 128, 1);
+}
+.surgen{
+    margin-left: 30px;
+}
+</style>
+<body class="whole">
+                             
+    <div class="row">
+        <div class="col-2 a">
+            <div class="first">
+                 <img  class="imgone" src="./images/test.png"> <br>
+            </div>
+            <div class="sec">
+             <a href="" ><img class="imgtwo" src="./images/Group 6.png" ></a><br>
+             <div class="three"><a href="" ><img class="imgthree" src="./images/Group 5.png" ></a><br></div>
+            <div class="fourth"><a href="" ><img src="./images/Group 3597 (1).png"><img src="./images/Group 7.png" class="four"></a></div> 
+            <div><a href="" ><img src="./images/Group 4.png"  class="five"></a></div>
+             <a href="" > <img src="./images/Group 3.png" class="six"></a>
+            </div> 
+            </div>
+        <div class="col-10 b">
+            <div class="rone">
+                     <img src="./images/magnifying-glass (2).png" class="search">
+                     <input type="text" placeholder="Search for patient and Consultations">
+                      <div class="new"><a href=""><p class="pay">New Patient</p></a></div>
+                      <img src="./images/Ellipse 5.png" class="pro">
+                      <p class="nam">Dr. Gail Saltz </p><p class="arro">^</p>
+            </div>
+            <div class="ba">
+            <a href="./dashboard.html"><lable class="larr">&#8592 </lable><lable class="back">Back to Patient List</lable></a>
+             <div class=prev1><a class="pre" href="./dashboard.html"><label>< Previous</lable></a>
+            </div>
+                 <div class=prev2><a class="pre" href=""><label>Next ></lable></a>
+                </div>
+            </div>
+            <div class="pproone">
+            <div class="ppro">
+                <div class="firstpart">
+                   <div class="image">
+                      <img src="./images/Rectangle 14.png" alt="">
+                   </div>
+                   <div class="rightside">
+                      <div class="firstline">
+                         <h5>John Doe</h5>
+                         <p class="active">active</p>
+                         <p class="update">*Last Updated on 25 July 2021</p>
+                         <button class="appoint">Create Appointment</button>
+                         <div class="drop">
+                            <lable class="dropdown"><img src="./images/fluent_more-circle-20-regular.png">
+                            <div class="dropdown-content"><a><img src="./images/Vector.png"><lable class="lab">View Lab Results</lable></a><br>
+                               <a><img src="./images/Vector.png">View Lab vitals</a><br><a><img src="./images/Vector.png">View Lab Medications</a>
+                            </div>
+                                      
+                            <!-- </lable> -->
+                         </div>
+                      </div>
+                      <div class="secline">
+                        <h6 class="hi">Male, 26 Years</h6>
+                        <img  class="dot" src="./images/Ellipse 2.png">
+                        <h6 class="occup">Occupation: Engineer</h6>
+                      </div>
+                      <hr>
+                        <div class="third">
+                    <div class="sched">
+                        <lable class="appt">Scheduled Appt</lable><br>
+                    <label class="month">05 Aug 2021</lable>
+                    </div>
+                    <div class="problem">
+                        <lable class="appt">Special Notes</lable><br>
+                    <label class="month">Patient is critical Sinus Problem  </lable>
+                    </div>
+                    <a class="edit">Edit</a>
+                </div>
+                 </div>
+                 </div>
+                <hr>
+                <div class="weight">
+                   <div class="heart">
+                        <div class="weig">
+                        <lable class="appt">Weight</lable><br>
+                        <label class="month">67.50 Kg</lable>
+                    </div>
+                    <div class="wei">
+                        <lable class="appt">Height</lable><br>
+                        <label class="month">145.45 Cm</lable>
+                    </div>
+                    <div class="wei">
+                        <lable class="appt">Blood Pressure</lable><br>
+                        <label class="month">120/80mmHg</lable>
+                    </div>
+                    <div class="wei">
+                        <lable class="appt">Heart Rate</lable><br>
+                        <label class="month">130/60</lable>
+                    </div>
+                   </div>
+                    <div class="heart">
+                        <div class="weig">
+                        <lable class="appt">Assigned Doctor</lable><br>
+                        <label class="month">Dr. Gail Saltz</lable>
+                    </div>
+                    <div class="wei">
+                        <lable class="appt">Family Doctor</lable><br>
+                        <label class="month">Dr. Chantal Godin</lable>
+                    </div>
+                    <div class="wei">
+                        <lable class="appt">Pharmacy Name</lable><br>
+                        <label class="month">Brunet Affiliated</lable>
+                    </div>
+                   </div>
+                </div>
+                
+            </div>
+            <div class="typing">
+                <lable class="notes">Appointment Notes:</lable>
+               <textarea type="text" placeholder="Type" class="typeone"></textarea>
+            </div>
+            </div>
+            <div class="thirdpart">
+                <div class="risk">
+                    <div class="riskone">
+                    <h6 class="factor">Risk Factor</h6>
+                     <a href=""><img class="zoom" src="./images/fluent_arrow-expand-24-regular.png"></a>
+                    </div>
+                    <hr>
+                    <div class="norisk">
+                        <lable>No Risk factor added</lable>
+                    </div>
+                    <div class="addrisk">
+                        <button>+ Add Risk Factor</button>
+                    </div>
+                </div>
+                <div class="lab">
+                 <div class="labresult">
+                    <h6 class="factor">Lab Results</h6>
+                     <a href=""><img class="zoom" src="./images/fluent_arrow-expand-24-regular.png"></a>
+                    </div>
+                    <hr>
+                     <div class="rates">
+                      <div class="heartrate">
+                        <div>
+                        <lable class="appt">Heart Rate</lable><br>
+                        <label class="casuses">Blockage in left Artery</lable>
+                        </div>
+                        <div class="numb1">
+                        <lable class="appt">TA</lable><br>
+                        <label class="casuses">120 mm/Hg</lable>
+                        </div>
+                     </div>
+                     <hr>
+                    <div class="heartrate">
+                        <div>
+                        <lable class="appt">Lungs</lable><br>
+                        <label class="casuses">Congestion in left side of chest</lable>
+                        </div>
+                        <div class="numb">
+                        <lable class="appt">FC</lable><br>
+                        <label class="casuses">72 / min</lable>
+                        </div>
+                     </div>
+                     <hr>
+                     <div class="heartrate">
+                        <div>
+                        <lable class="appt">Abdomen</lable><br>
+                        <label class="casuses">Pain on Right SIde</lable>
+                        </div>
+                        <div class="numb2">
+                        <lable class="appt">Poids</lable><br>
+                        <label class="casuses">71.6 Kg</lable>
+                        </div>
+                     </div>
+                 </div>
+                 </div>
+                 <div class="suggested">
+                    <div class="reports">
+                         <h6 class="repo">Suggested Reports</h6>
+                         <a href=""><img class="zoom3" src="./images/fluent_arrow-expand-24-regular.png"></a>
+                    </div>
+                    <hr>
+                    <div class="ray">
+                         <label class="ray">X-Ray</label><lable class="priority">High Priority</lable><br>
+                         <lable class="parts">Whole Lungs Part <br>iScan Corp, #45, Park Street, Sydney</lable>
+                    </div>
+                    <hr>
+                    <div class="ray">
+                         <label class="ray">Abdomen Scan</label><lable class="priority1">low Priority</lable><br>
+                         <lable class="parts">Whole Lungs Part <br>iScan Corp, #45, Park Street, Sydney</lable>
+                    </div>
+                    </div>
+                <div class="upcoming">
+                     <div class="reports">
+                         <h6 class="repo">Upcoming Appointments</h6>
+                         <a href=""><img class="zoom4" src="./images/fluent_arrow-expand-24-regular.png"></a>
+                    </div>
+                    <hr>
+                    <div class="dates">
+                        <lable class="da">12-Aug</lable>
+                        <div class="surgen">
+                           <b> <lable class="heartsur">Heart Surgeon Appointment</lable></b>
+                           <br>
+                           <lable class="doc">Dr. Adam Zampa <br> 10:30 AM</lable>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="dates">
+                        <lable class="da">25-Aug</lable>
+                        <div class="surgen">
+                           <b> <lable class="heartsur">Heart Surgeon Appointment</lable></b>
+                           <br>
+                           <lable class="doc">Dr. Adam Zampa <br> 10:30 AM</lable>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="chat-box">
+                   <div class="chat-box-line1">
+                      <h6 class="chat-box-top">Patient Chats</h6>
+                   </div>
+             <hr style="width: 97%;">
+                  
+             <div class="text-space">
+                  <div>
+                     <h6 class="msg">Type a message...</h6>      
+                  </div>
+                 <div class="chat-icons">
+                      <img src="./images/picture.png" class="pic">
+                      <img src="./images/attachment-clip.png" class="pic">
+                      <img src="./images/emoticon-with-happy-face.png" class="pic">
+                      <img src="./images/send.png" class="send-button">
+                 </div>
+              
+              
+             </div>
+                </div>
+                
+            </div>
+            
+        </div>    
+    </div>
+</body>

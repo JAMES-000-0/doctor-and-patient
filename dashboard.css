@@ -1,0 +1,87 @@
+.chat-box{
+    background-color: white;
+    width: 95%;
+    height: 80px;
+    margin-bottom: 1px;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 50px;
+    border-color: none;
+}
+.chat-box hr{
+      padding: 0px 0px 0px 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.chat-box-top{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+
+.chat-1{
+    margin-left: 20px;
+}
+.name-1{
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.time-1{
+        margin-left: 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: darkgrey;
+}
+.chat-content{
+        background-color: whitesmoke;
+    width: 65%;
+    height: 8vh;
+    border: 1px solid whitesmoke;
+    margin-top: 2px;
+    margin-left: 51px;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-left: 9px;
+}
+.chat-content-2{
+        background-color: whitesmoke;
+    width: 65%;
+    height: 10px;
+    border: 1px solid whitesmoke;
+    margin-left: 51px;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-left: 9px;
+}
+.text-space{
+        border: 1px solid #4284F3;
+    background-color: white;
+    display: flex;
+    gap: 70%;
+    align-items: baseline;
+}
+.msg{
+        font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: darkgray;
+}
+.send-button{
+    width: 15px;
+    height: 15px;
+    background: #4284F3;
+    border-radius: 10px;
+}
+.pic{
+        width: 15px;
+    margin-right: 8px;
+}
+.chat-icons{
+    margin-left: 130px;
+}

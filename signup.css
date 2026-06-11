@@ -1,0 +1,157 @@
+.a{
+    background-color: rgba(66, 132, 243, 1);
+    height: 760px;
+}
+.first{
+    color: rgba(255, 255, 255, 1);
+    margin-top: 156px;
+    margin-left: 139px;
+    font-family: sans-serif;
+    width: 372px;
+    
+}
+.one{
+    height: 67px;
+    margin-left: 130px;
+    padding: 15px;
+    bottom: 50px;
+}
+.two{
+    margin-left: 100px;
+    height: 159px;
+    padding: 30px;
+    margin-top: 40px;
+}
+.three{
+    color: rgba(255, 255, 255, 1);
+    margin-left: 130px;
+    height: 57px;
+    font-size: 38px;
+    margin-top: 30px;
+}   
+
+.fourth{
+    color: rgba(166, 166, 166, 1);    
+}
+.c{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.container input{
+    border: none;
+ height: 50px;
+ padding-top: 20px;
+ padding-left: 10px;
+ width: 230px;
+ box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.05) ;
+ border-radius: 10px;
+ 
+    
+}
+.container {
+   margin-left: 50px;
+   margin-top: 20px;
+   position: relative;
+}
+.five input{
+    width: 470px;
+}
+.l1{
+    position: absolute;
+    z-index: 1;
+        color: rgba(166, 166, 166, 1);    
+        font-size: smaller;
+        margin-left: 5px;
+        margin-top: 22px;
+}
+.l2{
+    position: absolute;
+    z-index: 1;
+        color: rgba(166, 166, 166, 1);    
+        font-size: smaller;
+     margin-top: 22px;
+        margin-left: 240px;
+
+}
+
+.l3{position: absolute;
+    z-index: 1;
+        color: rgba(166, 166, 166, 1);    
+        font-size: smaller;
+    margin-top: 93px;
+    margin-left: 5px;
+}
+.l4{position: absolute;
+    z-index: 1;
+        color: rgba(166, 166, 166, 1);    
+        font-size: smaller;
+    margin-left: 240px;
+    margin-top: 93px;
+}
+.l5{
+     position: absolute;
+    z-index: 1;
+        color: rgba(166, 166, 166, 1);    
+        font-size: smaller;
+        margin-top: 167px;
+        margin-left: 5px;
+    }
+.l6{
+     position: absolute;
+    z-index: 1;
+        color: rgba(166, 166, 166, 1);    
+        font-size: smaller;
+        margin-top: 167px;
+        margin-left: 240px;
+}
+.l7{
+     position: absolute;
+    z-index: 1;
+        color: rgba(166, 166, 166, 1);    
+        font-size: smaller;
+        margin-top: 241px;
+        margin-left: 5px;
+}
+.l8{
+    position: absolute;
+    z-index: 1;
+        color: rgba(166, 166, 166, 1);    
+        font-size: smaller;
+        margin-top: 317px;
+        margin-left: 5px;
+}
+.l9{
+    position: absolute;
+    z-index: 1;
+        color: rgba(166, 166, 166, 1);    
+        font-size: smaller;
+        margin-top: 317px;
+        margin-left: 240px;
+}
+.c1{
+    margin-left: 70px;
+    margin-top: 30px;
+    border: rgba(166, 166, 166, 1);    
+
+}
+.ll{
+    font-size: smaller;
+}
+.but button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+}
+.but{
+    margin-top: 30px;
+}
+.b2{
+    margin-left: 40px;
+}
+.b1{
+    margin-left: 140px;
+    background-color: rgba(66, 132, 243, 1);
+    color: aliceblue;
+}
+
+

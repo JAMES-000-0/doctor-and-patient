@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="signup.css">
+        <title>Sign in</title>
+    </head>
+    <body class="whole">
+        <div class="row">
+            <div class="col-7 a">
+                <h1 class="first">Welcome to</h1>
+                <img class="one" src="./images/Group 3597.png"><br>
+                <img class="two" src="./images/Group 3599.png" ><br>
+                <label class="three">Manage your patients</label>
+            </div>
+            <div class="col-5 b">
+               <div class="c">
+                 <h1 class="signup">Sign up</h1>
+                 <lable class="fourth">We have Happy to be in our OneRec Portal.<br>Sign in and explore OneRec</lable><br>
+                 <div class="l">
+                    <label class="l1">First name</label>  
+                 <label class="l2">last name</label>
+                  <label class="l3">Phone number</label>
+                  <Lable class="l4">Email Address</Lable>
+                  <lable class="l5">Password</lable>
+                  <label class="l6">Confirm Password</label>
+                  <lable class="l7">Hospital Name</lable>
+                  <label class="l8">State</label>
+                  <label class="l9">Zip Code</label>
+                  
+                 </div>
+                         
+               </div> 
+                <div class="container">
+                    <input type="text" id="fname" class="fname">
+                    <input type="text" id="lname"><br><br>
+                    <input type="number" id="mobileno">
+                    <input type="email" id="emaili"><br><br>
+                    <input type="password" id="passi">
+                    <input type="password" id="passi"><br><br>             
+                    <div class="five">
+                        <input type="text" id="hname">
+                    </div><br>
+                    <input type="text" id="sname">
+                    <input type="text" id="zcode">
+
+                </div>
+                <input type="checkbox" class="c1">
+                <label class="ll">I agree to all the terms and privacy policy</label>
+                 <div class="but">
+                    <button onclick=val() class="b1">Sign up</button>
+                   <a href="sam.html"><button class="b2">Sign in</button> </a> 
+                </div>
+            </div>
+        </div>
+    <script>
+      
+      function val()
+      {
+        let email=document.getElementById("emaili").value 
+      let password=document.getElementById("passi").value
+      let fnam=document.getElementById("fname").value 
+      let lnam=document.getElementById("lname").value 
+      let num=document.getElementById("mobileno").value 
+      let hnam=document.getElementById("hname").value
+      let snam=document.getElementById("sname").value 
+      let zcod=document.getElementById("zcode").value 
+        if(fnam==""|| lnam==""||num==""||email==""||password==""||hnam==""||snam==""||zcod==""){
+            alert("please fill all the details")
+        }
+        else{
+            alert("Validation Successfull")
+            window.location.href="sam.html"
+            localStorage.setItem("emailid",email)
+       localStorage.setItem("pass",pass)
+        }
+      }
+    </script>
+    </body>
+</html>           
